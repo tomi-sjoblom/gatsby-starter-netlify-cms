@@ -21,11 +21,10 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
           - {label: Image, name: image, widget: image}
-          - {label: "Opening hours", name: openingHours, widget: object, fields: [{label: Days, name: days, widget: string}, {label: Hours, name: hours, widget: string}]}
-          - {label: Address, name: address, widget: object, fields: [{label: "Street address", name: street, widget: string}, {label: City, name: city, widget: string}]}
+          - {label: "Opening hours", name: openingHours, widget: list, fields: [{label: Days, name: days, widget: string}, {label: Hours, name: hours, widget: string}]}
+          - {label: Address, name: address, widget: list, fields: [{label: "Street address", name: street, widget: string}, {label: City, name: city, widget: string}]}
           - {label: Telephone, name: telephone, widget: string}
-          - {label: Menu, name: menu, widget: object, fields: [{label: Type, name: type, widget: string}, {label: Description, name: label, widget: string}]}
+          - {label: Menu, name: menu, widget: list, fields: [{label: Type, name: type, widget: string}, {label: Description, name: label, widget: string}]}
           - {label: "Reservations link", name: description, widget: object, fields: [{label: Link, name: link, widget: string}, {label: Text, name: label, widget: string}]}
-          - {label: "Social links", name: socialLinks, widget: object, fields: [{label: Link, name: link, widget: string}, {label: Text, name: description, widget: text}]}
+          - {label: "Social links", name: socialLinks, widget: list, fields: [{label: Link, name: link, widget: string}, {label: Text, name: description, widget: text}]}

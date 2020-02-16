@@ -3,9 +3,7 @@ templateKey: index-page
 title: Restaurant Inari
 image: /img/fox_tailinfront_of_face.png
 openingHours:
-  - day: Tue-Fri
-    time: 17-00
-  - day: Sat
+  - day: Tue-Sat
     time: 17-00
 address:
   - street: Albertinkatu 19A

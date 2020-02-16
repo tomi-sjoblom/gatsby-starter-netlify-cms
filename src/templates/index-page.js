@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Logo from '../img/inari-logo.svg';
 
 import Layout from '../components/Layout'
+import GameOfLife from '../components/GameOfLife'
 import OpeningHours from '../components/OpeningHours'
 import Address from '../components/Address'
 import RestaurantMenu from '../components/RestaurantMenu'
@@ -21,7 +22,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <header className="header">
-      <div id="pt"></div>
+      <GameOfLife />
     </header>
     <section className="logo">
       <div className="header__logo-container">

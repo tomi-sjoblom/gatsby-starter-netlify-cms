@@ -6,29 +6,31 @@ openingHours:
   - day: Tue-Sat
     time: 17-00
 address:
-  - street: Albertinkatu 19A
-    city: Helsinki
+  - city: Helsinki
+    street: Albertinkatu 19A
 telephone: +358 505148155
 menu:
-  - type: food
-    label: 7 courses, 70€
-  - type: drink
-    label: 4 glasses, 44€
-  - type: food
-    label: 9 courses, 90€
-  - type: drink
-    label: 5 glasses, 55€
-  - type: food
-    label: 12 courses, 120€
-  - type: drink
-    label: 8 glasses, 88€
+  - label: '7 courses, 70€'
+    type: food
+  - label: '4 glasses, 44€'
+    type: drink
+  - label: '9 courses, 90€'
+    type: food
+  - label: '5 glasses, 55€'
+    type: drink
+  - label: '12 courses, 120€'
+    type: food
+  - label: '8 glasses, 88€'
+    type: drink
 booking:
-  link: https://www.exploretock.com/inari
   label: Book a table
+  link: 'https://www.exploretock.com/inari'
 socialLinks:
-  - link: https://www.facebook.com/inarihki/
-    label: Facebook
-  - link: https://www.instagram.com/inarihki/
-    label: Instagram
-  - link: mailto:info@ravintolainari.fi
-    label: Email
+  - label: Facebook
+    link: 'https://www.facebook.com/inarihki/'
+  - label: Instagram
+    link: 'https://www.instagram.com/inarihki/'
+  - label: Email
+    link: 'mailto:info@restaurantinari.com'
+---
+
